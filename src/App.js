@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import CounterComp from './Components/CounterComp';
 
 function App() {
   return (
-    <div>
-      <h2>Hi how are you.....</h2>
-    </div>
+      <div>
+        <CounterComp />
+      </div>
   );
 }
 
